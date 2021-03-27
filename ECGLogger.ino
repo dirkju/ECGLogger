@@ -67,11 +67,12 @@ const uint8_t SD_CS_PIN = 10;
 //------------------------------------------------------------------------------
 // Analog pin number list for a sample.  Pins may be in any order and pin
 // numbers may be repeated.
-const uint8_t PIN_LIST[] = {0, 1};
+// Using a single pin AD1 here
+const uint8_t PIN_LIST[] = {1};
 //------------------------------------------------------------------------------
 // Sample rate in samples per second.
-// For ECG 1000=excellent, 500=acceptable
-const float SAMPLE_RATE = 500;  // Must be 0.25 or greater.
+// For ECG 1000=excellent, 500=high quality, 250=acceptable
+const float SAMPLE_RATE = 500;
 
 // The interval between samples in seconds, SAMPLE_INTERVAL, may be set to a
 // constant instead of being calculated from SAMPLE_RATE.  SAMPLE_RATE is not
