@@ -820,7 +820,7 @@ void setup(void) {
   if (ERROR_LED_PIN >= 0) {
     pinMode(ERROR_LED_PIN, OUTPUT);
   }
-  Serial.begin(9600);
+  Serial.begin(57600);
   while(!Serial) {}
   Serial.println(F("Type any character to begin."));
   while(!Serial.available()) {}

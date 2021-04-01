@@ -11,10 +11,12 @@ Used libraries:
 * SDFat https://github.com/greiman/SdFat
 * This logger is heavily inspired by https://github.com/greiman/SdFat/tree/master/examples/AvrAdcLogger
 
-ECG data post-processing:
+Data format:
 * A number of signal processing software understands WAV format. Maybe this should be used as a capture format? https://gasstationwithoutpumps.wordpress.com/2011/10/08/making-wav-files-from-c-programs/
 * WAV resources: http://www.ringthis.com/dev/wave_format.htm
 * https://code.google.com/archive/p/waverp/downloads
 * TMR Arduino PCM library (with experimental record function): https://github.com/TMRh20/TMRpcm/wiki
+
+ECG data post-processing:
 * PhysioNet https://physionet.org/ and software package https://archive.physionet.org/physiotools/wfdb.shtml
 * Database of ECGs https://physionet.org/about/database/
